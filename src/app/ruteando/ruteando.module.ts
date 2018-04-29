@@ -26,6 +26,7 @@ import { JugadoresListadoComponent } from '../componentes/jugadores-listado/juga
 // declaro donde quiero que se dirija
 const MiRuteo:Routes = [
 {path: 'Jugadores' , component: JugadoresListadoComponent},
+///{path: '/' , component: PrincipalComponent},
 {path: '' , component: PrincipalComponent},
 {path: 'Login' , component: LoginComponent},
 {path: 'Mapa' , component: MapaDeGoogleComponent},
