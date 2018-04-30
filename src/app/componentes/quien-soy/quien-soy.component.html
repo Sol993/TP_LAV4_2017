@@ -1,4 +1,37 @@
-  <nav class="navbar navbar-default">
+<nav role="navigation"> <font face="Comic sam" SIZE=6 align=right ><h1><a href="#">Sala de Juegos</a></h1></font>
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="#"><li>Sala de Juegos</li></a>
+      <a routerLink="/Registro"><li>Registrarse</li></a>
+      <a routerLink="/Login"><li>Ingresar</li></a>
+      <a routerLink="/QuienSoy"><li>Quien Soy!</li></a>
+    </ul>
+  </div>
+</nav>
+ 
+ 
+ 
+ <!-- <nav class="navbar navbar-default">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -16,7 +49,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav>-->
   <body>
   <header id="header">
     <span class="avatar"><img src="./assets/imagenes/quiensoy.jpg" alt="" /></span>
