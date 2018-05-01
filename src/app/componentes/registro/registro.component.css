@@ -16,12 +16,20 @@ button {
     border: none;
     cursor: pointer;
     width: 100%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    
 }
 
 /* Extra styles for the cancel button */
 .cancelbtn {
     padding: 14px 20px;
     background-color: #f44336;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    text-align:center;
 }
 
 /* Float cancel and signup buttons and add an equal width */
@@ -83,4 +91,13 @@ button {
     .cancelbtn, .signupbtn {
        width: 100%;
     }
+}
+/*Body*/
+
+body,html {
+   background-image: url("/assets/imagenes/FondoDeReg.jpg");
+   height: 700px;
+    /*
+    background-color: #cccccc;
+    background-image: linear-gradient(red, yellow);*/
 }
