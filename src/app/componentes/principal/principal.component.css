@@ -1,6 +1,6 @@
 .imagenDeMenu{
-width: 80px;
-height: 70px;
+width: 100px;
+height: 90px;
 }
 
 .hero-text {
@@ -14,9 +14,9 @@ height: 70px;
     /*Menu*/
 
     body {
-        background: #4d468a url("/assets/imagenes/Fondo.jpg");
+        background: #a31f3d url("/assets/imagenes/prueba1.gif");
         height: 700px;
-        color: #444;
+        color: #a31f3d;
         font: 100%/30px 'Helvetica Neue', helvetica, arial, sans-serif;
         text-shadow: 0 1px 0 #fff;
     }
@@ -41,17 +41,17 @@ height: 70px;
     }	
     
     th {
-        background: url("/assets/imagenes/Fondo.jpg"), linear-gradient(#777, #444);
+        background: url("/assets/imagenes/prueba1.gif"), linear-gradient(#777, #444);
         border-left: 1px solid #555;
         border-right: 1px solid #777;
         border-top: 1px solid #555;
         border-bottom: 1px solid #333;
         box-shadow: inset 0 1px 0 #999;
-        color: #312d69;
+        color: #a31f3d;
       font-weight: bold;
         padding: 10px 15px;
         position: relative;
-        text-shadow: 0 1px 0 #000;	
+        text-shadow: 0 1px 0 #a31f3d;	
     }
     
     th:after {
@@ -95,11 +95,11 @@ height: 70px;
     }	
     
     tr {
-        background: url("/assets/imagenes/Fondo.jpg");	
+        background: url("/assets/imagenes/prueba1.gif");	
     }
     
     tr:nth-child(odd) td {
-        background: #f1f1f1 url("/assets/imagenes/Fondo.jpg");	
+        background: #f1f1f1 url("/assets/imagenes/prueba1.gif");	
     }
     
     tr:last-of-type td {
@@ -124,5 +124,5 @@ height: 70px;
         text-shadow: 0 1px 0 rgb(255, 255, 255);
     }
     body {
-        background-image: url("/assets/imagenes/Fondo.jpg");
+        background-image: url("/assets/imagenes/prueba1.gif");
     }
