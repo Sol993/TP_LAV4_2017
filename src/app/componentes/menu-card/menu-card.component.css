@@ -7,7 +7,7 @@
     margin: 10px;
     padding-bottom: 10px;
     float: left;
-  background-color: #DEF3A6;
+  background-color: #bedee8;
     text-align: center;
 }
 
@@ -25,16 +25,16 @@ img {
 .button{
     margin-left: 1px;
     display: inline-block;
-    width: 90%;
-    padding: 5px 15px;
-    font-size: 24px;
+    width: 50%;
+    padding: 5px 10px;
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
     outline: none;
-    color: #fff;
-    background-color: #4CAF50;
+    color: #bedee8;
+    background-color: #211d44;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 9px #999;
 
     border: none;
