@@ -14,7 +14,7 @@ height: 90px;
     /*Menu*/
 
     body {
-        background: #a31f3d url("./assets/imagenes/prueba1.gif");
+        background: #a31f3d url("/assets/imagenes/prueba1.gif");
         height: 1000px;
         color: #a31f3d;
         font: 100%/30px 'Helvetica Neue', helvetica, arial, sans-serif;
@@ -41,7 +41,7 @@ height: 90px;
     }	
     
     th {
-        background: url("./assets/imagenes/prueba1.gif"), linear-gradient(#777, #444);
+        background: url("/assets/imagenes/prueba1.gif"), linear-gradient(#777, #444);
         border-left: 1px solid #555;
         border-right: 1px solid #777;
         border-top: 1px solid #555;
@@ -95,11 +95,11 @@ height: 90px;
     }	
     
     tr {
-        background: url("./assets/imagenes/prueba1.gif");	
+        background: url("/assets/imagenes/prueba1.gif");	
     }
     
     tr:nth-child(odd) td {
-        background: #f1f1f1 url("./assets/imagenes/prueba1.gif");	
+        background: #f1f1f1 url("/assets/imagenes/prueba1.gif");	
     }
     
     tr:last-of-type td {
@@ -124,5 +124,5 @@ height: 90px;
         text-shadow: 0 1px 0 rgb(255, 255, 255);
     }
     body {
-        background-image: url("./assets/imagenes/prueba1.gif");
+        background-image: url("/assets/imagenes/prueba1.gif");
     }

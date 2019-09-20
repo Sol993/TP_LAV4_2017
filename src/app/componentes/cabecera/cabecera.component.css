@@ -1,7 +1,7 @@
 .panel
 {
     height: 200px;
-    background-image: url("./assets/imagenes/prueba1.gif");
+    background-image: url("/assets/imagenes/prueba1.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
